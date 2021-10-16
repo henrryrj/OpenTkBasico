@@ -38,7 +38,7 @@ namespace OpenTkBasico
             GL.LoadIdentity();
             GL.Clear(ClearBufferMask.ColorBufferBit |ClearBufferMask.DepthBufferBit);
             //GL.Translate(0, 0, -45); //para trasladar el plano
-            //GL.Rotate(ani, 0, 0, 1);
+            GL.Rotate(ani, 0, 0, 1);
 
 
             addCuadrado(-12.5,0, -37.4, 0, -37.4 ,- 25, -12.5,- 25);
